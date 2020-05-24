@@ -1322,7 +1322,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #47fb2d;
+  background: #e095b3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2911,4 +2911,11 @@ body {
 code {
   color: #ff511a;
   margin: 2px;
+}
+/* 鼠标样式 */
+* {
+  cursor: url("/images/default.cur"), auto;
+}
+:link {
+  cursor: url("/images/pointer.cur"), auto;
 }
