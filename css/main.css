@@ -1322,7 +1322,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e095b3;
+  background: #deff37;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2918,4 +2918,38 @@ code {
 }
 :link {
   cursor: url("/images/pointer.cur"), auto;
+}
+.post-body>p:first-child::first-letter {
+  float: left;
+/* height: 32px;*/
+  margin-top: 14px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 25px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .post-body>p:first-child::first-letter {
+    margin-top: 10px;
+    margin-right: 4px;
+    font-size: 26px;
+    line-height: 20px;
+  }
+}
+.back-to-top {
+  width: 70px;
+  height: 900px;
+  top: -900px;
+  bottom: unset;
+  transition: all 0.5s ease-in-out;
+  background: url("/images/scroll.png");
+}
+.back-to-top > i {
+  display: none;
+}
+.back-to-top.back-to-top-on {
+  bottom: unset;
+  top: calc(100vh - 900px - 200px);
 }
