@@ -1499,7 +1499,7 @@ details[open] > div.content details:last-child {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a2be83;
+  background: #bb7d62;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2371,23 +2371,6 @@ details[open] > div.content details:last-child {
   margin: 2em 0 0;
   padding: 0.5em 1em;
 }
-.post-title {
-  font-size: 26px;
-  text-align: center;
-  word-break: break-word;
-  font-weight: $posts-expand-title-font-weight;
-  background-color: #b9d3ee;
-  border-radius: 0.3em;
-  line-height: 1em;
-  padding-bottom: 0.12em;
-  padding-top: 0.12em;
-  box-shadow: 2px 2px 7px #9fb6cd;
-}
-@media (max-width: 767px) {
-  .post-title {
-    font-size: 22px;
-  }
-}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -3112,21 +3095,6 @@ code {
 }
 :link {
   cursor: url("/images/pointer.cur"), auto;
-}
-.back-to-top {
-  width: 70px;
-  height: 900px;
-  top: -900px;
-  bottom: unset;
-  transition: all 0.5s ease-in-out;
-  background: url("/images/scroll.png");
-}
-.back-to-top > i {
-  display: none;
-}
-.back-to-top.back-to-top-on {
-  bottom: unset;
-  top: calc(100vh - 900px - 200px);
 }
 .post {
   margin-top: 60px;
