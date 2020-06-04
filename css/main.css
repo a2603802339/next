@@ -1499,7 +1499,7 @@ details[open] > div.content details:last-child {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bb7d62;
+  background: #3dffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3077,7 +3077,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 @media (max-width: 767px) {
   body {
@@ -3159,4 +3159,14 @@ code {
   background: #00a8c3;
   padding: 2px 4px 2px 4px;
   color: #fff;
+}
+.gallery-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.gallery-column {
+  display: flex;
+  flex-direction: column-reverse;
 }
