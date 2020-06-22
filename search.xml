@@ -236,4 +236,27 @@ plugin我加了hexo-generator-feed（用来生成RSS），theme我选择用next�
         <tag>视频</tag>
       </tags>
   </entry>
+  <entry>
+    <title>test7</title>
+    <url>/test7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>graph LR<br>
+单独节点<br>
+开始 – 带注释写法1 --&gt; 结束<br>
+开始 --&gt;|带注释写法2| 结束<br>
+实线开始 — 实线结束<br>
+实线开始 --&gt; 实线结束<br>
+实线开始 --&gt;|带注释| 实线结束<br>
+虚线开始 -.- 虚线结束<br>
+虚线开始 -.-&gt; 虚线结束<br>
+虚线开始 -.-&gt;|带注释| 虚线结束<br>
+粗线开始 === 粗线结束<br>
+粗线开始 ==&gt; 粗线结束<br>
+粗线开始 ==&gt;|带注释| 粗线结束<br>
+subgraph 子图标题<br>
+子图开始 --&gt; 子图结束<br>
+end<br>
+节点1[方形文本框] --&gt; 节点2{菱形文本框}<br>
+节点3(括号文本框) --&gt; 节点4((圆形文本框))</p>
+]]></content>
+  </entry>
 </search>
