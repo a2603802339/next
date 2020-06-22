@@ -6,12 +6,12 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>示例</p>
 <a id="more"></a>
 <h1>折线图</h1>
-<div id="echarts1388" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts6288" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts1388'));
+  var myChart = echarts.init(document.getElementById('echarts6288'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -104,12 +104,12 @@
 </script>
 
 <h1>柱状图</h1>
-<div id="echarts1370" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts9776" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts1370'));
+  var myChart = echarts.init(document.getElementById('echarts9776'));
   // 指定图表的配置项和数据
   option = {
     tooltip: {
@@ -187,12 +187,12 @@
 </script>
 
 <h1>饼状图</h1>
-<div id="echarts4047" style="width: 85%;height: 600px;margin: 0 auto"></div>
+<div id="echarts5873" style="width: 85%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts4047'));
+  var myChart = echarts.init(document.getElementById('echarts5873'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -263,31 +263,6 @@
   myChart.setOption(option);
 </script>
 
-<p>gantt<br>
-dateFormat  YYYY-MM-DD<br>
-title Adding GANTT diagram functionality to mermaid</p>
-<pre><code>   section A section
-   Completed task            :done,    des1, 2014-01-06,2014-01-08
-   Active task               :active,  des2, 2014-01-09, 1d
-   Future task               :         des3, after des2, 1d
-   Future task2              :         des4, after des3, 1d
-
-   section Critical tasks
-   Completed task in the critical line :crit, done, 2014-01-06,24h
-   Implement parser and jison          :crit, done, after des1, 1d
-   Create tests for parser             :crit, active, 1d
-   Future task in critical line        :crit, 10h
-   Create tests for renderer           :1d
-   Add to mermaid                      :1d
-
-   section Documentation
-   Describe gantt syntax               :active, a1, after des1, 1d
-   Add gantt diagram to demo page      :after a1  , 20h
-   Add another diagram to demo page    :doc1, after a1  , 8h
-
-   section Last section
-   Describe gantt syntax               :after doc1, 30h
-   Add gantt diagram to demo page      :20h</code></pre>
 ]]></content>
   </entry>
   <entry>
