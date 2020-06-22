@@ -150,6 +150,11 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+        <li class="menu-item menu-item-photo">
+
+    <a href="/photos/" rel="section"><i class="fa fa-paint-brush fa-fw"></i>相册</a>
+
+  </li>
         <li class="menu-item menu-item-bangumis">
 
     <a href="/bangumis/" rel="section"><i class="fa fa-sitemap fa-fw"></i>追番</a>
@@ -653,6 +658,19 @@ window.addEventListener('pjax:success', () => {
 
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">
