@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>音乐插入应用</title>
+    <url>/%E9%9F%B3%E4%B9%90%E6%8F%92%E5%85%A5%E5%BA%94%E7%94%A8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>示例</p>
+<a id="more"></a>
+<h2 id="单曲播放"><a class="header-anchor" href="#单曲播放">¶</a>单曲播放</h2>
+<h3 id="网易云"><a class="header-anchor" href="#网易云">¶</a>网易云</h3>
+<div class="aplayer" data-id="231412" data-server="netease" data-type="song" data-mode="single"></div>
+<h3 id="QQ音乐"><a class="header-anchor" href="#QQ音乐">¶</a>QQ音乐</h3>
+<div class="aplayer" data-id="001rJYee3dCs68" data-server="tencent" data-type="song" data-mode="single"></div>
+<h2 id="播放列表"><a class="header-anchor" href="#播放列表">¶</a>播放列表</h2>
+<h3 id="QQ音乐-v2"><a class="header-anchor" href="#QQ音乐-v2">¶</a>QQ音乐</h3>
+<div class="aplayer" data-id="7174017502" data-server="tencent" data-type="playlist" data-mode="order"></div>
+<h3 id="网易云-v2"><a class="header-anchor" href="#网易云-v2">¶</a>网易云</h3>
+<div class="aplayer" data-id="4920881606" data-server="netease" data-type="playlist" data-mode="order"></div>
+]]></content>
+  </entry>
+  <entry>
     <title>进击的巨人</title>
     <url>/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>点击查看</p>
@@ -586,7 +603,7 @@ plugin我加了hexo-generator-feed（用来生成RSS），theme我选择用next�
 <div class="bilibili">
 <iframe src="//player.bilibili.com/player.html?aid=85162375&bvid=BV1D7411k71M&cid=145595559&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://www.metoo520.tk/Video/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA/%E7%AC%AC%E4%BA%8C%E5%AD%A3/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA%20%28%E5%8D%81%E4%B8%80%29.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
+]]></content>
       <categories>
         <category>视频</category>
       </categories>
