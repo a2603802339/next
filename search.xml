@@ -22,6 +22,7 @@
     <url>/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>点击查看</p>
 <a id="more"></a>
+<p>打开工具观看更流畅，否则可能加载失败！！！</p>
 <h2 id="第一季"><a class="header-anchor" href="#第一季">¶</a>第一季</h2>
 <h3 id="第一话"><a class="header-anchor" href="#第一话">¶</a>第一话</h3>
 <div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://www.metoo520.tk/Video/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA/%E7%AC%AC%E4%B8%80%E5%AD%A3/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA%20%E7%AC%AC01%E8%AF%9D%20.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
