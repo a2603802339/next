@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zdfghjv.cf/"/>
-  <updated>2020-06-25T15:05:02.789Z</updated>
+  <updated>2020-06-26T04:46:53.785Z</updated>
   <id>https://zdfghjv.cf/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://zdfghjv.cf/%E9%9F%B3%E4%B9%90%E6%8F%92%E5%85%A5%E5%BA%94%E7%94%A8.html"/>
     <id>https://zdfghjv.cf/%E9%9F%B3%E4%B9%90%E6%8F%92%E5%85%A5%E5%BA%94%E7%94%A8.html</id>
     <published>2020-06-23T10:49:02.000Z</published>
-    <updated>2020-06-25T15:05:02.789Z</updated>
+    <updated>2020-06-26T04:46:53.785Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note default">示例</div><a id="more"></a>## 单曲播放### 网易云<div class="aplayer" data-id="231412" data-server="netease" data-type="song" data-mode="single"></div><h3 id="QQ音乐"><a class="header-anchor" href="#QQ音乐">¶</a>QQ音乐</h3><div class="aplayer" data-id="001rJYee3dCs68" data-server="tencent" data-type="song" data-mode="single"></div><h2 id="播放列表"><a class="header-anchor" href="#播放列表">¶</a>播放列表</h2><h3 id="QQ音乐-v2"><a class="header-anchor" href="#QQ音乐-v2">¶</a>QQ音乐</h3><div class="aplayer" data-id="7174017502" data-server="tencent" data-type="playlist" data-mode="order"></div><h3 id="网易云"><a class="header-anchor" href="#网易云">¶</a>网易云</h3><div class="aplayer" data-id="4920881606" data-server="netease" data-type="playlist" data-mode="order"></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note default">示例</div><a id="more"></a><h2 id="单曲播放"><a class="header-anchor" href="#单曲播放">¶</a>单曲播放</h2><h3 id="网易云"><a class="header-anchor" href="#网易云">¶</a>网易云</h3><div class="aplayer" data-id="231412" data-server="netease" data-type="song" data-mode="single"></div><h3 id="QQ音乐"><a class="header-anchor" href="#QQ音乐">¶</a>QQ音乐</h3><div class="aplayer" data-id="001rJYee3dCs68" data-server="tencent" data-type="song" data-mode="single"></div><h2 id="播放列表"><a class="header-anchor" href="#播放列表">¶</a>播放列表</h2><h3 id="QQ音乐-v2"><a class="header-anchor" href="#QQ音乐-v2">¶</a>QQ音乐</h3><div class="aplayer" data-id="7174017502" data-server="tencent" data-type="playlist" data-mode="order"></div><h3 id="网易云-v2"><a class="header-anchor" href="#网易云-v2">¶</a>网易云</h3><div class="aplayer" data-id="4920881606" data-server="netease" data-type="playlist" data-mode="order"></div>]]></content>
     
     <summary type="html">
     
@@ -146,9 +146,9 @@
     <link href="https://zdfghjv.cf/test5.html"/>
     <id>https://zdfghjv.cf/test5.html</id>
     <published>2020-05-21T04:58:31.000Z</published>
-    <updated>2020-06-25T15:06:51.043Z</updated>
+    <updated>2020-06-26T04:45:47.235Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note danger no-icon">示例</p></div><a id="more"></a>[test5](https://www.bilibili.com/video/BV1Ms411D7in/)]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note danger no-icon">示例</p></div><a id="more"></a><p><a href="https://www.bilibili.com/video/BV1Ms411D7in/" target="_blank" rel="noopener">test5</a></p>]]></content>
     
     <summary type="html">
     
@@ -192,9 +192,9 @@
     <link href="https://zdfghjv.cf/test2.html"/>
     <id>https://zdfghjv.cf/test2.html</id>
     <published>2020-05-19T16:05:32.000Z</published>
-    <updated>2020-06-25T15:07:45.537Z</updated>
+    <updated>2020-06-26T04:47:37.111Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note success">示例</div><a id="more"></a>![](/images/1.jpg)]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note success">示例</div><a id="more"></a><p><img data-src="/images/1.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
