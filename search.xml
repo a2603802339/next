@@ -12,8 +12,8 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>-->
 <a id="more"></a>
-#  Next主题的配置
-在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录(hexo/themes/next)下，为了描述方便，在以下说明中，将前者称为 <span class="label info">站点配置文件</span>， 后者称为 <span class="label primary">主题配置文件</span>
+<h1>Next主题的配置</h1>
+<p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录(hexo/themes/next)下，为了描述方便，在以下说明中，将前者称为 <span class="label info">站点配置文件</span>， 后者称为 <span class="label primary">主题配置文件</span></p>
 <h2 id="配置环境"><a class="header-anchor" href="#配置环境">¶</a>配置环境</h2>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo: 4.2.1</span><br><span class="line">hexo-cli: 3.1.0</span><br><span class="line">os: Windows_NT 10.0.18363 win32 x64</span><br><span class="line">node: 12.16.3</span><br><span class="line">next: 7.8</span><br></pre></td></tr></table></figure>
 <h2 id="配置文件分离"><a class="header-anchor" href="#配置文件分离">¶</a>配置文件分离</h2>
