@@ -1499,7 +1499,7 @@ details[open] > div.content details:last-child {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #40f0a3;
+  background: #ff32ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3170,51 +3170,54 @@ code {
   display: flex;
   flex-direction: column-reverse;
 }
-.gallery-page {
-  margin-top: -80px;
+/*哔哩哔哩视频适配*/
+.bilibili {
+  position: relative;
+  width: 100%;
 }
-.img-list,
-.gallery-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+@media only screen and (max-width: 767px) {
+  .bilibili {
+    height: 15em;
+    max-width: 25em;
+  }
 }
-iframe,
-img,
-video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bilibili {
+    height: 20em;
+    max-width: 30em;
+  }
 }
-p {
-  margin: 0 0 20px 85px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .bilibili {
+    height: 30em;
+    max-width: 40em;
+  }
 }
-.img-column {
-  display: flex;
-  flex-direction: column-reverse;
+@media only screen and (min-width: 1200px) {
+  .bilibili {
+    height: 40em;
+    max-width: 50em;
+  }
 }
-.img-column a,
-.gallery-column a {
-  border-bottom: 0px;
+#veditor {
+  background-image: url("https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgba(255,255,255,0);
+  resize: vertical;
 }
-.gallery-item {
-  margin-bottom: 30px;
+#vcomments .vcards .vcard {
+  padding: 15px 20px 0 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.12);
+  transition: all 0.3s;
 }
-.gallery-item p {
-  margin: 25px auto -10px;
-  max-width: 50%;
-  text-align: center;
-  font-size: 15px;
-  color: #222;
-  background: rgba(255,255,255,0.3);
-  border-radius: 7px;
-  border: 1px solid #222;
-  box-shadow: 0 8px 20px -8px rgba(0,0,0,0.3);
+#vcomments .vcards .vcard:hover {
+  box-shadow: 0 0 8px 3px rgba(0,0,0,0.12);
 }
-.posts-expand .post-body .gallery-column a img {
-  height: 250px;
-  width: 300px;
-  object-fit: cover;
+#vcomments .vcards .vcard .vh .vcard {
+  border: none;
+  box-shadow: none;
 }
