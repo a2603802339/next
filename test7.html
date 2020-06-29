@@ -304,12 +304,12 @@
         <div class="note info">示例</div>
 <a id="more"></a>
 # 折线图
-<div id="echarts497" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts6417" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts497'));
+  var myChart = echarts.init(document.getElementById('echarts6417'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -402,12 +402,12 @@
 </script>
 
 # 柱状图
-<div id="echarts2508" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts8657" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts2508'));
+  var myChart = echarts.init(document.getElementById('echarts8657'));
   // 指定图表的配置项和数据
   option = {
     tooltip: {
@@ -485,12 +485,12 @@
 </script>
 
 # 饼状图
-<div id="echarts6549" style="width: 85%;height: 600px;margin: 0 auto"></div>
+<div id="echarts2031" style="width: 85%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts6549'));
+  var myChart = echarts.init(document.getElementById('echarts2031'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -794,6 +794,27 @@ function setzero(i){
 show_date_time();
 </script>
 
+
+<script>
+    //   自定义邮箱审核规则
+    document.body.addEventListener('click', function(e) {
+        if (e.target.classList.contains('vsubmit')) {
+            const email = document.querySelector('input[type=email]');
+            const nick = document.querySelector('input[name=nick]');
+            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (!email.value || !nick.value || !reg.test(email.value)) {
+                const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
+                const vmark = document.querySelector('.vmark');
+                vmark.innerHTML = str;
+                vmark.style.display = 'block';
+                setTimeout(function() {
+                    vmark.style.display = 'none';
+                    vmark.innerHTML = '';
+                }, 2500);
+            }
+        }
+    })
+</script>
         
 
 

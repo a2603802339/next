@@ -1499,7 +1499,7 @@ details[open] > div.content details:last-child {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff32ff;
+  background: #d97c8f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3220,4 +3220,30 @@ code {
 #vcomments .vcards .vcard .vh .vcard {
   border: none;
   box-shadow: none;
+}
+#vcomments .vheader .vnick {
+  width: 31%;
+  border: 2px solid #dedede;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+#vcomments .vheader .vmail {
+  width: 31%;
+  border: 2px solid #dedede;
+  margin-left: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+#vcomments .vheader .vlink {
+  width: 31%;
+  border: 2px solid #dedede;
+  margin-left: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+.vcopy.txt-right {
+  display: none;
 }
