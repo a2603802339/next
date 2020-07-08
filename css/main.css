@@ -1499,7 +1499,7 @@ details[open] > div.content details:last-child {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bfff88;
+  background: #90ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3286,4 +3286,8 @@ code {
 }
 * {
   color: #ffb6c1;
+}
+.header-inner {
+  background: #fff;
+  opacity: 1;
 }
