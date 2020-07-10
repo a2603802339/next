@@ -139,12 +139,12 @@ plugin我加了hexo-generator-feed（用来生成RSS），theme我选择用next�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">示例</div>
 <a id="more"></a>
 <h2 id="折线图"><a class="header-anchor" href="#折线图">¶</a>折线图</h2>
-<div id="echarts6372" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts7095" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts6372'));
+  var myChart = echarts.init(document.getElementById('echarts7095'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -237,12 +237,12 @@ plugin我加了hexo-generator-feed（用来生成RSS），theme我选择用next�
 </script>
 
 <h2 id="柱状图"><a class="header-anchor" href="#柱状图">¶</a>柱状图</h2>
-<div id="echarts8387" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts2805" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts8387'));
+  var myChart = echarts.init(document.getElementById('echarts2805'));
   // 指定图表的配置项和数据
   option = {
     tooltip: {
@@ -320,12 +320,12 @@ plugin我加了hexo-generator-feed（用来生成RSS），theme我选择用next�
 </script>
 
 <h2 id="饼状图"><a class="header-anchor" href="#饼状图">¶</a>饼状图</h2>
-<div id="echarts6409" style="width: 85%;height: 600px;margin: 0 auto"></div>
+<div id="echarts6370" style="width: 85%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts6409'));
+  var myChart = echarts.init(document.getElementById('echarts6370'));
   // 指定图表的配置项和数据
   option = {
     title: {
