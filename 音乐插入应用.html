@@ -540,7 +540,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">33 分钟</span>
 </div>
 
 <div id="days"></div>
@@ -591,6 +591,9 @@ show_date_time();
         }
     })
 </script>
+
+
+
         
 
 
@@ -708,9 +711,9 @@ window.addEventListener('pjax:success', () => {
 
 <script data-pjax>
 if (document.querySelectorAll('pre.mermaid').length) {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+  NexT.utils.getScript('cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
     mermaid.initialize({
-      theme    : 'neutral',
+      theme    : 'forest',
       logLevel : 3,
       flowchart: { curve     : 'linear' },
       gantt    : { axisFormat: '%m/%d/%Y' },
@@ -722,6 +725,8 @@ if (document.querySelectorAll('pre.mermaid').length) {
 
 
     <div id="pjax">
+  
+
   
 
   
