@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/1.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">请输入密码</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="7e52f7f6f55128dace3b1b9d968e5de960d88b01b7b1dbe3d9eefe3ea7207303">04b96cf03f1b5d00286d72390b6bf2e0817acbfddb7147d2fcc01912c7f5c0f9713c9c317ba53b9347fde83c930f8c77af411014f8ec84eef7465f6027f6e56361da453a696c51ea2cf726ce74f4d1f870ba487ed6f2d242104af5c0877116b7f14bfb7a90c5973d12ee403d2035f9933239ae2447ed66790333bdf54ffb591262e25fa12dbcf137d44c19a6cd948ebafb15e73fa6eff6dc060b9040f5fe74ceda47dc32b97d576023487f051b3ba54871cb60256fd4256dcb3d9ea06e8a92fc4afa1afe60a0ad090443f00ab150f281192ceb03ca5f98cfc8607797dc5ca7b41c1cd824111a08484eef87ba491a4fe589fbba3cb941c30a36806245d6b0f21c11644826d9c0bb9db39b2e6032b4fcfc2263f6b03a3b75951ea429364c6c927efaf2706e7ef2a8e38404d5cfad49227b7859e1047b742b0572d4cd574f5f34ed0923f2cd4ace75b12d4c99aa2d203922dfbbc8993547a6b7e88f2cd7c785527f5335c607ad54e197d20b39a5d1625b6007cf25b559d06495f1c0ef88f2a8ebf3c2f23063cec62eec55faecd2cb910d14b33e4d253a103b1b5d224c1ac3e3a2243c1e0f89c7a637ac3ebb3f20aec027f83a4a561bf42d54628af7fe1c5bd13a6ef7db7c521f792ecb1419a1da91386c352717414bca88a0f5b79169c3564cc1bd1776c3642009eae0982158e84911641a2381f3dd83726257724a3c4912b755cb09b6e46dd4025fe15a11e2f2c202b366bb0d025a901076a3c6c82395483c89870210d8851ef5d922d0c307682f0fa74823ad8c75cc58db9701230ccaf45003f144534758940d4f45a2460bc760436b9481b017d7c34eff632c3bb8a377131a6482ce657f3484deb6feba406fe84fd93d24f94133c68c7fbaef43a6e771e81a4eb72db0a9c1ec747bfd7fe7271df6bc8a9c33fc8ff2b0f99d3b18422b2f0e573ba46e6e4662f1dadea40e7c6759c6668eff99ee44dd29b93c7f11f9c023af5eb9f7c0ea347874143148160a79e0676f7d99120420e1fd1326742bb44f9f09245405e611b71457445f1c34b4e1721bbd084c075357999be097b58059531033424f830bc6c965dad1ab3fe5e3e581d906d7e9e58761ec4e1a57c8e50138157292b53b40003d6a7b21264d6a12700e6548a41a6969fef80b8fb7b934712ea79ab25679bc8e9fe2e3095d0641bbf2dacb36f930c220eae4edc909d82e07beac7de780c313042ae33296d32f4c8e0c0fcf02f53c039949084044d3cb954d67541232819a09448063060498e2f542e4d8660fb9a9de2065540a9f6d80714cf70565209f5f5c57835fff841f077e78c2a4aff75aedad20d0740254a1c8baf6c11d3622979355b3841d14a1a6e84d7db8d5438249e34afbda6be2f63dd136afcbaf6704dfcb655e26a27d2e5ef223c389419a69ccf75e8916a17bb48837c5fa2834a69c2d8417e62afbf26281430ecb8c2e7df72e8d4736fdc57908bc67f7646719fb87ec8b96b661c01335d65d29b5253acee37327aeb1572fbee2d5bc8f4ef70f10fe186587ca007c02cd2d1b81d2415dffb0d027f9aa3ca19224ad4ab12ef94a83dae58720cdb2dd187e67bf297a5005506c4b6cece949a63a3562ce5eeac92eb471f9f3a8a567778b6b7a8a851d4e7235eafb59423ad7777c1518442a1bee1ac9ea66fed0f3d928202f5cc8252d5c7c50dc373849f5e17f8ead4736f6d8ee144746d93b8ff72d5ec5dc34a6322d7c67b8e1b59b64b7cae2b04c995fd776c56575717e2d1de02af4d3df915fc32356ef6f9a758eee8ba5502e037e92afa8342560b28a39efce58f00164423267fa9ca3950dcc</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>马克思</tag>
-      </tags>
+    <title>Hello World</title>
+    <url>/hello-world.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2>
+<h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>图片插入</title>
@@ -83,24 +84,46 @@ Youtube
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/hello-world.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <title>test</title>
+    <url>/1.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">请输入密码</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="7e52f7f6f55128dace3b1b9d968e5de960d88b01b7b1dbe3d9eefe3ea7207303">04b96cf03f1b5d00286d72390b6bf2e0817acbfddb7147d2fcc01912c7f5c0f9713c9c317ba53b9347fde83c930f8c77af411014f8ec84eef7465f6027f6e56361da453a696c51ea2cf726ce74f4d1f870ba487ed6f2d242104af5c0877116b7f14bfb7a90c5973d12ee403d2035f9933239ae2447ed66790333bdf54ffb591262e25fa12dbcf137d44c19a6cd948ebafb15e73fa6eff6dc060b9040f5fe74ceda47dc32b97d576023487f051b3ba54871cb60256fd4256dcb3d9ea06e8a92fc4afa1afe60a0ad090443f00ab150f281192ceb03ca5f98cfc8607797dc5ca7b41c1cd824111a08484eef87ba491a4fe589fbba3cb941c30a36806245d6b0f21c11644826d9c0bb9db39b2e6032b4fcfc2263f6b03a3b75951ea429364c6c927efaf2706e7ef2a8e38404d5cfad49227b7859e1047b742b0572d4cd574f5f34ed0923f2cd4ace75b12d4c99aa2d203922dfbbc8993547a6b7e88f2cd7c785527f5335c607ad54e197d20b39a5d1625b6007cf25b559d06495f1c0ef88f2a8ebf3c2f23063cec62eec55faecd2cb910d14b33e4d253a103b1b5d224c1ac3e3a2243c1e0f89c7a637ac3ebb3f20aec027f83a4a561bf42d54628af7fe1c5bd13a6ef7db7c521f792ecb1419a1da91386c352717414bca88a0f5b79169c3564cc1bd1776c3642009eae0982158e84911641a2381f3dd83726257724a3c4912b755cb09b6e46dd4025fe15a11e2f2c202b366bb0d025a901076a3c6c82395483c89870210d8851ef5d922d0c307682f0fa74823ad8c75cc58db9701230ccaf45003f144534758940d4f45a2460bc760436b9481b017d7c34eff632c3bb8a377131a6482ce657f3484deb6feba406fe84fd93d24f94133c68c7fbaef43a6e771e81a4eb72db0a9c1ec747bfd7fe7271df6bc8a9c33fc8ff2b0f99d3b18422b2f0e573ba46e6e4662f1dadea40e7c6759c6668eff99ee44dd29b93c7f11f9c023af5eb9f7c0ea347874143148160a79e0676f7d99120420e1fd1326742bb44f9f09245405e611b71457445f1c34b4e1721bbd084c075357999be097b58059531033424f830bc6c965dad1ab3fe5e3e581d906d7e9e58761ec4e1a57c8e50138157292b53b40003d6a7b21264d6a12700e6548a41a6969fef80b8fb7b934712ea79ab25679bc8e9fe2e3095d0641bbf2dacb36f930c220eae4edc909d82e07beac7de780c313042ae33296d32f4c8e0c0fcf02f53c039949084044d3cb954d67541232819a09448063060498e2f542e4d8660fb9a9de2065540a9f6d80714cf70565209f5f5c57835fff841f077e78c2a4aff75aedad20d0740254a1c8baf6c11d3622979355b3841d14a1a6e84d7db8d5438249e34afbda6be2f63dd136afcbaf6704dfcb655e26a27d2e5ef223c389419a69ccf75e8916a17bb48837c5fa2834a69c2d8417e62afbf26281430ecb8c2e7df72e8d4736fdc57908bc67f7646719fb87ec8b96b661c01335d65d29b5253acee37327aeb1572fbee2d5bc8f4ef70f10fe186587ca007c02cd2d1b81d2415dffb0d027f9aa3ca19224ad4ab12ef94a83dae58720cdb2dd187e67bf297a5005506c4b6cece949a63a3562ce5eeac92eb471f9f3a8a567778b6b7a8a851d4e7235eafb59423ad7777c1518442a1bee1ac9ea66fed0f3d928202f5cc8252d5c7c50dc373849f5e17f8ead4736f6d8ee144746d93b8ff72d5ec5dc34a6322d7c67b8e1b59b64b7cae2b04c995fd776c56575717e2d1de02af4d3df915fc32356ef6f9a758eee8ba5502e037e92afa8342560b28a39efce58f00164423267fa9ca3950dcc</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>马克思</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐插入</title>
+    <url>/test3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note default">示例</div>
 <a id="more"></a>
-<h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2>
-<h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h2 id="单曲播放"><a class="header-anchor" href="#单曲播放">¶</a>单曲播放</h2>
+<h3 id="网易云"><a class="header-anchor" href="#网易云">¶</a>网易云</h3>
+<div class="aplayer" data-id="231412" data-server="netease" data-type="song" data-mode="single"></div>
+<h3 id="QQ音乐"><a class="header-anchor" href="#QQ音乐">¶</a>QQ音乐</h3>
+<div class="aplayer" data-id="001rJYee3dCs68" data-server="tencent" data-type="song" data-mode="single"></div>
+<h2 id="播放列表"><a class="header-anchor" href="#播放列表">¶</a>播放列表</h2>
+<h3 id="QQ音乐-v2"><a class="header-anchor" href="#QQ音乐-v2">¶</a>QQ音乐</h3>
+<div class="aplayer" data-id="7174017502" data-server="tencent" data-type="playlist" data-mode="order"></div>
+<h3 id="网易云-v2"><a class="header-anchor" href="#网易云-v2">¶</a>网易云</h3>
+<div class="aplayer" data-id="4920881606" data-server="netease" data-type="playlist" data-mode="order"></div>
 ]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>music</tag>
+      </tags>
   </entry>
   <entry>
     <title>写作技巧练习</title>
@@ -127,12 +150,12 @@ Youtube
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">示例</div>
 <a id="more"></a>
 <h2 id="折线图"><a class="header-anchor" href="#折线图">¶</a>折线图</h2>
-<div id="echarts4429" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts7248" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts4429'));
+  var myChart = echarts.init(document.getElementById('echarts7248'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -225,12 +248,12 @@ Youtube
 </script>
 
 <h2 id="柱状图"><a class="header-anchor" href="#柱状图">¶</a>柱状图</h2>
-<div id="echarts4008" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts6833" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts4008'));
+  var myChart = echarts.init(document.getElementById('echarts6833'));
   // 指定图表的配置项和数据
   option = {
     tooltip: {
@@ -308,12 +331,12 @@ Youtube
 </script>
 
 <h2 id="饼状图"><a class="header-anchor" href="#饼状图">¶</a>饼状图</h2>
-<div id="echarts8744" style="width: 85%;height: 600px;margin: 0 auto"></div>
+<div id="echarts862" style="width: 85%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts8744'));
+  var myChart = echarts.init(document.getElementById('echarts862'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -430,29 +453,6 @@ Youtube
         <tag>hexo</tag>
         <tag>next</tag>
         <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐插入</title>
-    <url>/test3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note default">示例</div>
-<a id="more"></a>
-<h2 id="单曲播放"><a class="header-anchor" href="#单曲播放">¶</a>单曲播放</h2>
-<h3 id="网易云"><a class="header-anchor" href="#网易云">¶</a>网易云</h3>
-<div class="aplayer" data-id="231412" data-server="netease" data-type="song" data-mode="single"></div>
-<h3 id="QQ音乐"><a class="header-anchor" href="#QQ音乐">¶</a>QQ音乐</h3>
-<div class="aplayer" data-id="001rJYee3dCs68" data-server="tencent" data-type="song" data-mode="single"></div>
-<h2 id="播放列表"><a class="header-anchor" href="#播放列表">¶</a>播放列表</h2>
-<h3 id="QQ音乐-v2"><a class="header-anchor" href="#QQ音乐-v2">¶</a>QQ音乐</h3>
-<div class="aplayer" data-id="7174017502" data-server="tencent" data-type="playlist" data-mode="order"></div>
-<h3 id="网易云-v2"><a class="header-anchor" href="#网易云-v2">¶</a>网易云</h3>
-<div class="aplayer" data-id="4920881606" data-server="netease" data-type="playlist" data-mode="order"></div>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>music</tag>
       </tags>
   </entry>
 </search>

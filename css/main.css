@@ -1513,7 +1513,7 @@ YaHei", sans-serif;
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #46f2a3;
+  background: #959cff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3308,6 +3308,9 @@ code {
 .gallery-column {
   display: flex;
   flex-direction: column-reverse;
+}
+.vpower.txt-right {
+  display: none;
 }
 @-moz-keyframes sliding {
   to {
