@@ -1079,7 +1079,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-16 09:50:54" itemprop="dateModified" datetime="2020-07-16T09:50:54+08:00">2020-07-16</time>
+                <time title="修改时间：2020-07-17 12:09:42" itemprop="dateModified" datetime="2020-07-17T12:09:42+08:00">2020-07-17</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1130,7 +1130,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          Here's something encrypted, password is required to continue reading.
+          文章已加密
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/test5.html#more" rel="contents">
@@ -1193,7 +1193,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-16 09:50:00" itemprop="dateModified" datetime="2020-07-16T09:50:00+08:00">2020-07-16</time>
+                <time title="修改时间：2020-07-17 12:08:51" itemprop="dateModified" datetime="2020-07-17T12:08:51+08:00">2020-07-17</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1244,7 +1244,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          Here's something encrypted, password is required to continue reading.
+          文章已加密
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/test2.html#more" rel="contents">
@@ -1755,6 +1755,17 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 });
 </script>
 
+
+
+</script>
+<!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+    })
+</script>
 
 <!-- 文件位置：~/source/_data/body-end.swig -->
 

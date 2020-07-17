@@ -771,6 +771,17 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 </script>
 
 
+
+</script>
+<!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
+        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+    })
+</script>
+
 <!-- 文件位置：~/source/_data/body-end.swig -->
 
 <script src="//sdk.jinrishici.com/v2/browser/jinrishici.js"></script>
