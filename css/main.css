@@ -1513,7 +1513,7 @@ YaHei", sans-serif;
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #98bf16;
+  background: #e2a8f2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
