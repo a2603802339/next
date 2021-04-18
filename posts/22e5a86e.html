@@ -363,12 +363,12 @@
 <p><a href="https://www.bilibili.com/video/BV1Ms411D7in/" target="_blank" rel="noopener">这里</a></p>
 <h2 id="ECharts-动态图表"><a class="header-anchor" href="#ECharts-动态图表">¶</a>ECharts 动态图表</h2>
 <h3 id="折线图"><a class="header-anchor" href="#折线图">¶</a>折线图</h3>
-<div id="echarts1992" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts2906" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts1992'));
+  var myChart = echarts.init(document.getElementById('echarts2906'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -461,12 +461,12 @@
 </script>
 
 <h3 id="柱状图"><a class="header-anchor" href="#柱状图">¶</a>柱状图</h3>
-<div id="echarts3364" style="width: 100%;height: 600px;margin: 0 auto"></div>
+<div id="echarts7613" style="width: 100%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts3364'));
+  var myChart = echarts.init(document.getElementById('echarts7613'));
   // 指定图表的配置项和数据
   option = {
     tooltip: {
@@ -544,12 +544,12 @@
 </script>
 
 <h3 id="饼状图"><a class="header-anchor" href="#饼状图">¶</a>饼状图</h3>
-<div id="echarts2982" style="width: 85%;height: 600px;margin: 0 auto"></div>
+<div id="echarts6426" style="width: 85%;height: 600px;margin: 0 auto"></div>
 <script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
 <script type="text/javascript" src="http://gallery.echartsjs.com/dep/echarts/map/js/china.js"></script>
 <script type="text/javascript">
   // 基于准备好的dom，初始化echarts实例
-  var myChart = echarts.init(document.getElementById('echarts2982'));
+  var myChart = echarts.init(document.getElementById('echarts6426'));
   // 指定图表的配置项和数据
   option = {
     title: {
@@ -923,7 +923,6 @@ show_date_time();
   
   <script size="100" alpha="1" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
   <script src="//cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/lozad.js/1.14.0/lozad.min.js"></script>
@@ -941,65 +940,6 @@ show_date_time();
 <script src="/js/next-boot.js"></script>
 
 <script src="/js/bookmark.js"></script>
-
-  <script>
-var pjax = new Pjax({
-  selectors: [
-    'head title',
-    '#page-configurations',
-    '.content-wrap',
-    '.post-toc-wrap',
-    '.languages',
-    '#pjax'
-  ],
-  switches: {
-    '.post-toc-wrap': Pjax.switches.innerHTML
-  },
-  analytics: false,
-  cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
-});
-
-window.addEventListener('pjax:success', () => {
-  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
-    var code = element.text || element.textContent || element.innerHTML || '';
-    var parent = element.parentNode;
-    parent.removeChild(element);
-    var script = document.createElement('script');
-    if (element.id) {
-      script.id = element.id;
-    }
-    if (element.className) {
-      script.className = element.className;
-    }
-    if (element.type) {
-      script.type = element.type;
-    }
-    if (element.src) {
-      script.src = element.src;
-      // Force synchronous loading of peripheral JS.
-      script.async = false;
-    }
-    if (element.dataset.pjax !== undefined) {
-      script.dataset.pjax = '';
-    }
-    if (code !== '') {
-      script.appendChild(document.createTextNode(code));
-    }
-    parent.appendChild(script);
-  });
-  NexT.boot.refresh();
-  // Define Motion Sequence & Bootstrap Motion.
-  if (CONFIG.motion.enable) {
-    NexT.motion.integrator
-      .init()
-      .add(NexT.motion.middleWares.subMenu)
-      .add(NexT.motion.middleWares.postList)
-      .bootstrap();
-  }
-  NexT.utils.updateSidebarPosition();
-});
-</script>
 
 
 
@@ -1022,7 +962,7 @@ window.addEventListener('pjax:success', () => {
 
 
 
-<script data-pjax>
+<script>
 if (document.querySelectorAll('pre.mermaid').length) {
   NexT.utils.getScript('cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
     mermaid.initialize({
@@ -1037,7 +977,6 @@ if (document.querySelectorAll('pre.mermaid').length) {
 </script>
 
 
-    <div id="pjax">
   
 
   
@@ -1188,7 +1127,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     </div>
   </div>
 </div><script src="/js/injector.js"></script>
-    </div>
 
  <script src="https://zdfghjv.cf/live2d/autoload.js"></script>
  <!-- 樱花特效 --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
